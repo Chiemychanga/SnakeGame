@@ -1,22 +1,25 @@
 var song;
+var sliderVolume;
 
 var snake;
 var scl = 20;
 
 var food;
 
-function preload() {
-    song = loadSound("altitude-trains.mp3");
-}
+
 
 function setup() {
     createCanvas(600, 600);
-    song.play();
+    song = loadSound("altitude-trains.mp3", loaded);
+    sliderVolume = createSlider(0, 1, 0.5, 0.01);
 
     snake = new Snake();
     frameRate(10);
     pickLocation();
+}
 
+function loaded() {
+    song.play();
 }
 
 function pickLocation() {
@@ -31,7 +34,8 @@ function mousePressed() {
 }
 
 function draw() {
-  // put drawing code here
+    song.setVolume(sliderVolume.value());
+
     background(51);
     if (snake.eat(food)) {
         pickLocation();
@@ -40,10 +44,9 @@ function draw() {
     snake.update();
     snake.show();
 
-
-
     fill(255, 0, 50);
     rect(food.x, food.y, scl, scl);
+
 }
 
 function keyPressed() {
