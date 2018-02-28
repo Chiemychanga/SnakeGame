@@ -18,7 +18,7 @@ function pickLocation() {
 }
 
 function mousePressed() {
-    s.total++;
+    snake.total++;
 }
 function draw() {
   // put drawing code here
@@ -26,7 +26,7 @@ function draw() {
     if (snake.eat(food)) {
         pickLocation();
     }
-    s.death();
+    snake.death();
     snake.update();
     snake.show();
 

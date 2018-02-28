@@ -56,9 +56,11 @@ function Snake() {
 
     this.show = function() {
         fill(255);
+        //draw snake's tail
         for (var i = 0; i < this.tail.length; i++) {
             rect(this.tail[i].x, this.tail[i].y, scl, scl)
         }
+        //draw snake's head
         rect(this.x, this.y, scl, scl);
     }
 }

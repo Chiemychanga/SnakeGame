@@ -28,21 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sketch.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sketch.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/snake/sketch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="185">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snake.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="snake.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snake/snake.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="643">
+              <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -66,8 +66,8 @@
         <option value="$PROJECT_DIR$/empty-example/snake.js" />
         <option value="$PROJECT_DIR$/empty-example/index.html" />
         <option value="$PROJECT_DIR$/empty-example/sketch.js" />
-        <option value="$PROJECT_DIR$/snake/sketch.js" />
         <option value="$PROJECT_DIR$/snake/snake.js" />
+        <option value="$PROJECT_DIR$/snake/sketch.js" />
       </list>
     </option>
   </component>
@@ -149,7 +149,7 @@
       <updated>1519810034752</updated>
       <workItem from="1519810035938" duration="783000" />
       <workItem from="1519810846100" duration="218000" />
-      <workItem from="1519811083825" duration="3431000" />
+      <workItem from="1519811083825" duration="3744000" />
     </task>
     <task id="LOCAL-00001" summary="Got the white dot on the canvas and moving directions correct to arrows">
       <created>1519812042500</created>
@@ -179,11 +179,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519813240832</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Eats and grows.">
+      <created>1519814656754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519814656754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4432000" />
+    <option name="totallyTimeSpent" value="4745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="684" y="23" width="756" height="804" extended-state="0" />
@@ -218,7 +225,8 @@
     <MESSAGE value="Got the white dot on the canvas and moving directions correct to arrows" />
     <MESSAGE value="Now that that I have a global variable &quot;scl=20&quot; in sketch.js, snake's update function will have the snake start at those scales. Also, make the snake's x and y constrain within the width and height of the canvas." />
     <MESSAGE value="Snake now will eat the food when it reaches within 1 pixel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Snake now will eat the food when it reaches within 1 pixel." />
+    <MESSAGE value="Eats and grows." />
+    <option name="LAST_COMMIT_MESSAGE" value="Eats and grows." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -275,18 +283,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snake/sketch.js">
+    <entry file="file://$PROJECT_DIR$/snake/snake.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="643">
+          <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snake/snake.js">
+    <entry file="file://$PROJECT_DIR$/snake/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="185">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
         </state>
       </provider>
