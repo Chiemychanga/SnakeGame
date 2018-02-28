@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3b20826-0c8e-4fd8-99a2-dc53d2b7bb19" name="Default" comment="Got the white dot on the canvas and moving directions correct to arrows">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snake/sketch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snake/snake.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/empty-example/sketch.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/empty-example/index.html" afterPath="$PROJECT_DIR$/snake/index.html" />
+    <list default="true" id="a3b20826-0c8e-4fd8-99a2-dc53d2b7bb19" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snake/sketch.js" afterPath="$PROJECT_DIR$/snake/sketch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snake/snake.js" afterPath="$PROJECT_DIR$/snake/snake.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="sketch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snake/sketch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="375">
+              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -43,8 +41,8 @@
       <file leaf-file-name="snake.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/snake/snake.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -69,6 +67,7 @@
         <option value="$PROJECT_DIR$/empty-example/index.html" />
         <option value="$PROJECT_DIR$/empty-example/sketch.js" />
         <option value="$PROJECT_DIR$/snake/snake.js" />
+        <option value="$PROJECT_DIR$/snake/sketch.js" />
       </list>
     </option>
   </component>
@@ -79,10 +78,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="556" />
+    <option name="x" value="684" />
     <option name="y" value="23" />
-    <option name="width" value="884" />
-    <option name="height" value="790" />
+    <option name="width" value="756" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,22 +149,38 @@
       <updated>1519810034752</updated>
       <workItem from="1519810035938" duration="783000" />
       <workItem from="1519810846100" duration="218000" />
-      <workItem from="1519811083825" duration="866000" />
+      <workItem from="1519811083825" duration="2020000" />
     </task>
+    <task id="LOCAL-00001" summary="Got the white dot on the canvas and moving directions correct to arrows">
+      <created>1519812042500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519812042500</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Now that that I have a global variable &quot;scl=20&quot; in sketch.js, snake's update function will have the snake start at those scales. Also, make the snake's x and y constrain within the width and height of the canvas.">
+      <created>1519812544518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519812544518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1867000" />
+    <option name="totallyTimeSpent" value="3021000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="556" y="23" width="884" height="790" extended-state="0" />
+    <frame x="684" y="23" width="756" height="804" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24913093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32215744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -187,7 +202,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Got the white dot on the canvas and moving directions correct to arrows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got the white dot on the canvas and moving directions correct to arrows" />
+    <MESSAGE value="Now that that I have a global variable &quot;scl=20&quot; in sketch.js, snake's update function will have the snake start at those scales. Also, make the snake's x and y constrain within the width and height of the canvas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Now that that I have a global variable &quot;scl=20&quot; in sketch.js, snake's update function will have the snake start at those scales. Also, make the snake's x and y constrain within the width and height of the canvas." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -236,14 +252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snake/sketch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/snake/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -252,10 +260,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/snake/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/snake/snake.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
