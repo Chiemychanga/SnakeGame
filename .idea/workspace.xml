@@ -167,7 +167,7 @@
       <workItem from="1519810035938" duration="783000" />
       <workItem from="1519810846100" duration="218000" />
       <workItem from="1519811083825" duration="3761000" />
-      <workItem from="1519815404103" duration="2630000" />
+      <workItem from="1519815404103" duration="2647000" />
     </task>
     <task id="LOCAL-00001" summary="Got the white dot on the canvas and moving directions correct to arrows">
       <created>1519812042500</created>
@@ -232,11 +232,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519818378902</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&#10;Song works">
+      <created>1519818402492</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1519818402492</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7392000" />
+    <option name="totallyTimeSpent" value="7409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="832" y="29" width="608" height="804" extended-state="0" />
@@ -272,7 +279,8 @@
     <MESSAGE value="Snake now will eat the food when it reaches within 1 pixel." />
     <MESSAGE value="Eats and grows." />
     <MESSAGE value="Testing for the mp3 to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing for the mp3 to work" />
+    <MESSAGE value="&#10;Song works" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Song works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
