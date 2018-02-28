@@ -1,13 +1,22 @@
+var song;
+
 var snake;
 var scl = 20;
 
 var food;
 
+function preload() {
+    song = loadSound("altitude-trains.mp3");
+}
+
 function setup() {
     createCanvas(600, 600);
+    song.play();
+
     snake = new Snake();
     frameRate(10);
     pickLocation();
+
 }
 
 function pickLocation() {
@@ -20,6 +29,7 @@ function pickLocation() {
 function mousePressed() {
     snake.total++;
 }
+
 function draw() {
   // put drawing code here
     background(51);
