@@ -1,8 +1,10 @@
 var snake;
+var scl = 20;
 
 function setup() {
     createCanvas(600, 600);
     snake = new Snake();
+    frameRate(15);
 }
 
 function draw() {
