@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3b20826-0c8e-4fd8-99a2-dc53d2b7bb19" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snake/sketch.js" afterPath="$PROJECT_DIR$/snake/sketch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snake/snake.js" afterPath="$PROJECT_DIR$/snake/snake.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -149,7 +147,7 @@
       <updated>1519810034752</updated>
       <workItem from="1519810035938" duration="783000" />
       <workItem from="1519810846100" duration="218000" />
-      <workItem from="1519811083825" duration="2020000" />
+      <workItem from="1519811083825" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="Got the white dot on the canvas and moving directions correct to arrows">
       <created>1519812042500</created>
@@ -165,22 +163,28 @@
       <option name="project" value="LOCAL" />
       <updated>1519812544518</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Snake now will eat the food when it reaches within 1 pixel.">
+      <created>1519813216309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519813216309</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3021000" />
+    <option name="totallyTimeSpent" value="3065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="684" y="23" width="756" height="804" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32215744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32215744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -203,7 +207,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Got the white dot on the canvas and moving directions correct to arrows" />
     <MESSAGE value="Now that that I have a global variable &quot;scl=20&quot; in sketch.js, snake's update function will have the snake start at those scales. Also, make the snake's x and y constrain within the width and height of the canvas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Now that that I have a global variable &quot;scl=20&quot; in sketch.js, snake's update function will have the snake start at those scales. Also, make the snake's x and y constrain within the width and height of the canvas." />
+    <MESSAGE value="Snake now will eat the food when it reaches within 1 pixel." />
+    <option name="LAST_COMMIT_MESSAGE" value="Snake now will eat the food when it reaches within 1 pixel." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
