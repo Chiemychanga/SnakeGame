@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3b20826-0c8e-4fd8-99a2-dc53d2b7bb19" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sketch.js" afterPath="$PROJECT_DIR$/sketch.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -168,7 +167,7 @@
       <workItem from="1519810035938" duration="783000" />
       <workItem from="1519810846100" duration="218000" />
       <workItem from="1519811083825" duration="3761000" />
-      <workItem from="1519815404103" duration="2615000" />
+      <workItem from="1519815404103" duration="2630000" />
     </task>
     <task id="LOCAL-00001" summary="Got the white dot on the canvas and moving directions correct to arrows">
       <created>1519812042500</created>
@@ -226,11 +225,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519817248224</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Testing for the mp3 to work">
+      <created>1519818378902</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1519818378902</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7377000" />
+    <option name="totallyTimeSpent" value="7392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="832" y="29" width="608" height="804" extended-state="0" />
