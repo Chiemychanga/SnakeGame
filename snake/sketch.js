@@ -6,7 +6,7 @@ var food;
 function setup() {
     createCanvas(600, 600);
     snake = new Snake();
-    frameRate(15);
+    frameRate(10);
     pickLocation();
 }
 
@@ -16,15 +16,21 @@ function pickLocation() {
     food = createVector(floor(random(cols)), floor(random(rows)));//Create a food at random locaiton
     food.mult(scl); //multiply food by that scale to expand it back out
 }
+
+function mousePressed() {
+    s.total++;
+}
 function draw() {
   // put drawing code here
     background(51);
-    snake.update();
-    snake.show();
-
     if (snake.eat(food)) {
         pickLocation();
     }
+    s.death();
+    snake.update();
+    snake.show();
+
+
 
     fill(255, 0, 50);
     rect(food.x, food.y, scl, scl);
